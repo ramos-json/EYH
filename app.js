@@ -5,6 +5,6 @@ app.use(express.static('public'));
 app.get('/',(req,res)=>{
     res.send('index.html');
 })
-app.listen(PORT,()=>{
+app.listen(5000,()=>{
     console.log("server running");
 });
